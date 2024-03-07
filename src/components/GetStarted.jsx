@@ -4,8 +4,8 @@ import imgUrl from "../assets/getStartedimg.png"
 function GetStarted() {
   return (
     <div className=" bg-[#0052FE] flex flex-col items-center rounded-xl p-7 text-white">
-      <div className="text-white font-bold text-[1.3rem] flex flex-col justify-center items-center">
-        Get Started with KoinX  
+      <div className="text-white font-bold lg:text-[1.3rem] text-[1rem] flex flex-col justify-center items-center">
+        <div>Get Started with KoinX</div>
         <div>for FREE</div>
       </div>
       <div className="text-center text-[.8rem] mt-3 leading-5">

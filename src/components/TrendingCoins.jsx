@@ -19,7 +19,6 @@ function TrendingCoins() {
 
   return (
     <div className="bg-white p-4 flex flex-col gap-4 rounded-lg">
-      {console.log(coins)}
       <div className="font-semibold text-[1.3rem]" >Trending Coins (24H)</div>
       {
         coins.length>0?coins.map((coin)=>{

@@ -9,6 +9,10 @@ import TrendingCoins from './components/TrendingCoins'
 import GetStarted from './components/GetStarted'
 import InfoTab from './components/InfoTab'
 import Performance from './components/Performance'
+import Sentiments from './components/Sentiments'
+import About from './components/About'
+import YouMayAlsoLike from './components/YouMayAlsoLike'
+
 function App() {
 
   return (
@@ -16,10 +20,13 @@ function App() {
     <NavBar/>
     <div className="flex bg-[#EFF2F5] p-[3rem] gap-[1rem] flex-col md:flex-row">
       <div className="bg-[#EFF2F5] h-auto md:w-[70%]">
-        <div className="mt-[1rem]" >
+        <div className="mt-[0rem]" >
           <ChartComponent/>
           <InfoTab/>
           <Performance/>
+          <Sentiments/>
+          <About/>
+          
         </div>
       </div>
       <div className="mt-[1rem] flex flex-col gap-4">
@@ -27,6 +34,7 @@ function App() {
         <TrendingCoins/>
       </div>
     </div>
+    <YouMayAlsoLike/>
     </>
   )
 }
