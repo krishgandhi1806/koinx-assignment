@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <NavBar/>
-    <div className="flex bg-[#EFF2F5] p-[3rem] gap-[1rem] flex-col md:flex-row">
+    <div className="flex bg-[#EFF2F5] p-[1rem] lg:p-[3rem] gap-[1rem] flex-col md:flex-row">
       <div className="bg-[#EFF2F5] h-auto md:w-[70%]">
         <div className="mt-[0rem]" >
           <ChartComponent/>

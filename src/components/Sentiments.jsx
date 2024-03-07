@@ -13,7 +13,7 @@ function CustomSlides({image, bgcol, index}){
     return(
         <div index={index} className={`flex ${colors[bgcol]} items-start justify-center rounded-xl ml-[1rem] text-black p-4 pl-0`}>
             <div className="">
-                <img className="w-[25rem] h-[3rem] lg:w-[12rem] lg:h-[5rem]" src={image} alt="News" />
+                <img className="w-[20rem] h-[4rem] lg:w-[12rem] lg:h-[5rem]" src={image} alt="News" />
             </div>
             <div className="flex items-center gap-2 flex-col text-xs">
                 <div className="font-semibold text-xs">
