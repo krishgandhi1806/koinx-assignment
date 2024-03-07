@@ -3,12 +3,12 @@ import imgUrl from "../assets/getStartedimg.png"
 
 function GetStarted() {
   return (
-    <div className="w-[20rem] h-[70%] bg-[#0052FE] flex flex-col items-center rounded-xl p-7 text-white">
-      <div className="text-white font-medium text-[1.25rem] flex flex-col justify-center items-center">
+    <div className=" bg-[#0052FE] flex flex-col items-center rounded-xl p-7 text-white">
+      <div className="text-white font-bold text-[1.3rem] flex flex-col justify-center items-center">
         Get Started with KoinX  
         <div>for FREE</div>
       </div>
-      <div className="text-center text-[.7rem] mt-3 leading-5">
+      <div className="text-center text-[.8rem] mt-3 leading-5">
         With our range of features that you can equip for free, Koinx allows you to be more educated and aware of your tax reports.
       </div>
       <img src={imgUrl} className="h-[14rem] mt-[-1rem]" alt="" />

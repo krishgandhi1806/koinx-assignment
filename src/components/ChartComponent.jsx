@@ -4,12 +4,12 @@ import GetStarted from './GetStarted'
 
 function ChartComponent() {
   return (
-    <div className="w-auto flex gap-[1rem] flex-col md:flex-row justify-between">
+    <div className="w-auto flex flex-col md:flex-row justify-between">
       <div className="h-[35rem] w-auto md:w-[50rem] md:h-[40rem]">
         <Chart/>
       </div>
       <div className="hidden md:flex">
-      <GetStarted />
+      {/* <GetStarted /> */}
       </div>
     </div>
   )
